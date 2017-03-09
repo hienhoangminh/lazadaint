@@ -1,0 +1,6 @@
+Test_case_name,User_suite,Expected_user_name
+Test_FindUsersBySuiteName,Suite 729,Patricia Lebsack
+Test_FindUsersBySuiteNameNotExisted,Utah,
+Test_FindUsersByNumberSuiteName,987654321,
+Test_FindUsersByStreetNameWithInvalidURL,$%address.suite=Suite 729,
+Test_FindUsersByStreetWithDifferentParameter,?suite=Suite 729,

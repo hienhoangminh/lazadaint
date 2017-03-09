@@ -1,0 +1,6 @@
+Test_case_name,User_BS,Expected_user_name
+Test_FindUsersByCompanyBs,synergize scalable supply-chains,Ervin Howell
+Test_FindUsersByCompanyBsNotExisted,Don't be evil,
+Test_FindUsersByNumberBs,10.9123,
+Test_FindUsersByBSWithInvalidURL,#$?company.bs=target end-to-end models,
+Test_FindUsersByBSWithDifferentParameter,/users?bs=target end-to-end models,

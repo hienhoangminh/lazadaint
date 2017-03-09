@@ -1,0 +1,4 @@
+Test_case_name,First Parameter,First Value,Second Parameter,Second Value,Expected_user_name
+Users_FindUserByTwoExistedParameters,username,Samantha,address.city,McKenziehaven,Clementine Bauch
+Test_FindUserByOneExistedAndOneNotExistedParameter,username,Samantha,address.city,Moscow,
+Test_FindUserByNameWithInvalidURL,username,Samantha,city.address,McKenziehaven,

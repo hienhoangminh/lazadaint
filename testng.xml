@@ -1,0 +1,34 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="5" name="Lazada Interview Test Suite" parallel="tests" preserve-order="true">
+<test name ="Suite 1">
+   <classes>
+      <class name="apitesting.com.org.api.suite1.Users_GetListUserAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByIdAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByNameAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByUserNameAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByEmailAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByStreetAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserBySuiteAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByCityAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByZipCodeAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUsersByLatAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUsersByLngAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByPhone" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByWebsiteAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByCompanyNameAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByCompanycatchPhraseAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByCompanyBsAPI" />
+      <class name="apitesting.com.org.api.suite1.Users_FindUserByMultipleCriterias" />
+   </classes>
+ </test>
+
+ <test name ="Suite 2">
+   <classes>
+      <class name="apitesting.com.org.api.suite2.Users_CreateUserAPI" />
+      <class name="apitesting.com.org.api.suite2.Users_UpdateUserAPI" />
+      <class name="apitesting.com.org.api.suite2.Users_DeleteUserAPI" />
+   </classes>
+ </test>
+ <!-- Test -->
+</suite><!-- Suite --> 

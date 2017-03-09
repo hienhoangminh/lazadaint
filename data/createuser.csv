@@ -1,0 +1,5 @@
+Test_case_name,url,id,name,username,email,street,suite,city,zipcode,lat,lng,phone,website,name,catchPhrase,bs
+Test_CreateNewUser,,11,Chelsey Dietrich V,Kamren V,Lucio_Hettinger@annie.ca,Skiles Walks,Suite 351,Roscoeview,33263,-31.8129,62.5342,(254)954-1289,demarco.info,Keebler LLC,User-centric fault-tolerant solution,revolutionize end-to-end systems
+Test_CreateAlreadyExistedUser,,11,Chelsey Dietrich V,Kamren V,Lucio_Hettinger@annie.ca,Skiles Walks,Suite 351,Roscoeview,33263,-31.8129,62.5342,(254)954-1289,demarco.info,Keebler LLC,User-centric fault-tolerant solution,revolutionize end-to-end systems
+Test_CreateUserWithDifferentFormat,,12,Barbara Courtinois,BlackRose_xx,karma@downstairs.com,Skiles Walks,Suite 450,Moscow,33263,-3/4,-9/8,(+33)631-101-654,karma.info,Karma LLC,User-centric fault-tolerant solution,revolutionize end-to-end systems
+Test_CreateUserWithInvalidURL,!@#$%^&*,11,Jean McDonalds,KarmaGuvo,karma@downstairs.com,Skiles Walks,Suite 450,Moscow,33263,-12.1122,-56.1456,(+33)631-101-654,karma.info,Karma LLC,User-centric fault-tolerant solution,revolutionize end-to-end systems

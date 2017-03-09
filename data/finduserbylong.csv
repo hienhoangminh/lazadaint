@@ -1,0 +1,6 @@
+Test_case_name,User_Longtitude,Expected_user_name
+Test_FindUsersByLongtitude,21.8984,Kurtis Weissnat
+Test_FindUsersByLongtitudeNotExisted,90,
+Test_FindUsersByStringLongtitude,bbnbxmcbv,
+Test_FindUsersByLngWithInvalidURL,!#address.geo.lng=31428-2261,
+Test_FindUsersByLngWithDifferentParameter,/users?lng=31428-2261,

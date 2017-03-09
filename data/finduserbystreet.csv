@@ -1,0 +1,6 @@
+Test_case_name,User_street,Expected_user_name
+Test_FindUsersByStreetName,Skiles Walks,Jean McDonalds
+Test_FindUsersByStreetNameNotExisted,Utah,
+Test_FindUsersByBlankStreetName,987654321,
+Test_FindUsersByStreetNameWithInvalidURL,()address.street=Hoeger Mall,
+Test_FindUsersByStreetWithDifferentParameter,?street=Hoeger Mall,

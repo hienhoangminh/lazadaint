@@ -1,0 +1,6 @@
+Test_case_name,User_ZipCode,Expected_user_name
+Test_FindUsersByZipCode,31428-2261,Clementina DuBuque
+Test_FindUsersByZipCodeNotExisted,75000,
+Test_FindUsersByStringZipCode,abc-def-ghij,
+Test_FindUsersByZipCodeWithInvalidURL,^+address.zipcode=31428-2261,
+Test_FindUsersByZipCodeWithDifferentParameter,?zipcode=31428-2261,

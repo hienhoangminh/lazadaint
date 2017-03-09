@@ -1,0 +1,5 @@
+Test_case_name,User_username,Expected_user_name
+Test_FindUsersByUsername,Samantha,Clementine Bauch
+Test_FindUserByUsernameNotExisted,Charlos,
+Test_FindUserByUsernameComposedOfNumber,123457781,
+Test_FindUserByUsernameWithInvalidURL,?//username=Karianne,

@@ -1,0 +1,6 @@
+Test_case_name,User_Id,Expected_user_name
+Test_DeleteUser,/12,
+Test_DeleteNonExistedUser,/20,
+Test_DeleteUserAlreadyDeleted,/12,
+Test_DeleteUserWithInvalidURL,/users//,
+Test_DeleteUserWithDifferentParameter,/users?email=Sherwood@rosamond.me,

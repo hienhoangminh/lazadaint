@@ -1,0 +1,6 @@
+Test_case_name,User_Website,Expected_user_name
+Test_FindUsersByWebsite,anastasia.net,Ervin Howell
+Test_FindUsersByWebsiteNotExisted,www.google.com,
+Test_FindUsersByNumberWebsite,2123533,
+Test_FindUsersByWebsiteWithInvalidURL,$$website=anastasia.net,
+Test_FindUsersByWebsiteWithDifferentParameter,/users?address.website=anastasia.net,

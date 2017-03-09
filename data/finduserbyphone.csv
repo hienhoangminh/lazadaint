@@ -1,0 +1,6 @@
+Test_case_name,User_Phone,Expected_user_name
+Test_FindUsersByPhone,(254)954-1289,Chelsey Dietrich
+Test_FindUsersByPhoneNotExisted,(+33)631 101 654,
+Test_FindUsersByStringPhone,bbnbxmcbv,
+Test_FindUsersByPhoneWithInvalidURL,~*phone=(254)954-1289,
+Test_FindUsersByPhoneWithDifferentParameter,/users?lat=(254)954-1289,

@@ -1,0 +1,6 @@
+Test_case_name,User_Company_catchphrase,Expected_user_name
+Test_FindUsersByCompanycatchPhrase,Proactive didactic contingency,Ervin Howell
+Test_FindUsersByCompanycatchPhraseNotExisted,Google it,
+Test_FindUsersByNumberCompanycatchPhrase,9999999,
+Test_FindUsersBycatchPhraseWithInvalidURL,%%company.catchPhrase=Proactive didactic contingency,
+Test_FindUsersBycatchPhraseWithDifferentParameter,/users?catchPhrase=Proactive didactic contingency,

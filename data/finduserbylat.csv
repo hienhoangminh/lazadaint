@@ -1,0 +1,6 @@
+Test_case_name,User_Latitude,Expected_user_name
+Test_FindUsersByLatitude,-71.4197,Mrs. Dennis Schulist
+Test_FindUsersByLatitudeNotExisted,0,
+Test_FindUsersByStringLatitude,bbnbxmcbv,
+Test_FindUsersByLatitudeWithInvalidURL,$%address.geo.lat=-71.4197,
+Test_FindUsersByLatitudeWithDifferentParameter,/users?lat=-71.4197,

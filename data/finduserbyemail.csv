@@ -1,0 +1,5 @@
+Test_case_name,User_email,Expected_user_name
+Test_FindUsersByEmail,Shanna@melissa.tv,Ervin Howell
+Test_FindUsersByInvalidEmail,Shannamelissa.tv,
+Test_FindUsersByNotExistedEmail,test@yopmail.com,
+Test_FindUsersByEmailWithNotValidURL,@?email=Sincere@april.biz,
